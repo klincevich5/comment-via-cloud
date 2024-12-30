@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-# Укажите путь к chromedriver
-service = Service('/Users/anton-klintsevich/Documents/cloud comment/chromedriver')
+# Укажите путь к chromedriver.exe
+service = Service(r'C:\Users\klinc\comment-via-cloud\chromedriver.exe')
 
 # Создайте экземпляр WebDriver
 driver = webdriver.Chrome(service=service)
